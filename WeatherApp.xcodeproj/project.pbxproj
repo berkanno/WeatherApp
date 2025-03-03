@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B0B589E42D7597A800AD8766 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B589E32D7597A800AD8766 /* VStack.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B06C941F2D6D96C400CFFE54 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B589E32D7597A800AD8766 /* VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +39,7 @@
 			children = (
 				B06C94212D6D96C400CFFE54 /* WeatherApp */,
 				B06C94202D6D96C400CFFE54 /* Products */,
+				B0B589E32D7597A800AD8766 /* VStack.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B589E42D7597A800AD8766 /* VStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
