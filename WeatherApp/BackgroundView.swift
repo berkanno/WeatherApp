@@ -2,11 +2,12 @@ import SwiftUI
 
 struct BackgroundView: View {
     
-    var topColor: Color
-    var bottomColor: Color
+     var isNightMode: Bool
     
     var body: some View {
-        LinearGradient(colors: [topColor, bottomColor],
+        LinearGradient(colors: [
+            isNightMode ? .black : .blue,
+            isNightMode ? .gray : Color("lightBlue")],
                        startPoint: .topLeading,
                        endPoint: .bottomTrailing)
         .edgesIgnoringSafeArea(.all)
