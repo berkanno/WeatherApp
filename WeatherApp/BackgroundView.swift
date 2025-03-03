@@ -1,8 +1,14 @@
-//
-//  BackgroundView.swift
-//  WeatherApp
-//
-//  Created by Berkan oral on 3.03.2025.
-//
+import SwiftUI
 
-import Foundation
+struct BackgroundView: View {
+    
+    var topColor: Color
+    var bottomColor: Color
+    
+    var body: some View {
+        LinearGradient(colors: [topColor, bottomColor],
+                       startPoint: .topLeading,
+                       endPoint: .bottomTrailing)
+        .edgesIgnoringSafeArea(.all)
+    }
+}

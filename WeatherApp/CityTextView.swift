@@ -1,8 +1,12 @@
-//
-//  CityTextView.swift
-//  WeatherApp
-//
-//  Created by Berkan oral on 3.03.2025.
-//
+import SwiftUI
 
-import Foundation
+struct CityTextView: View {
+    var cityName: String
+    
+    var body: some View {
+        Text(cityName)
+            .font(.system(size: 20, weight: .medium, design: .default))
+            .foregroundStyle(.white)
+            .padding()
+    }
+}

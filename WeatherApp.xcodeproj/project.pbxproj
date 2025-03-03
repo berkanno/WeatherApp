@@ -6,13 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B0B589E42D7597A800AD8766 /* VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B589E32D7597A800AD8766 /* VStack.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		B06C941F2D6D96C400CFFE54 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0B589E32D7597A800AD8766 /* VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack.swift; sourceTree = "<group>"; };
+		B06C941F2D6D96C400CFFE54 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = WeatherApp.app; path = "/Users/berkanoral/Desktop/WeatherApp/build/Debug-iphoneos/WeatherApp.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,17 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				B06C94212D6D96C400CFFE54 /* WeatherApp */,
-				B06C94202D6D96C400CFFE54 /* Products */,
-				B0B589E32D7597A800AD8766 /* VStack.swift */,
 			);
-			sourceTree = "<group>";
-		};
-		B06C94202D6D96C400CFFE54 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B06C941F2D6D96C400CFFE54 /* WeatherApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,7 +86,7 @@
 			mainGroup = B06C94162D6D96C400CFFE54;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B06C94202D6D96C400CFFE54 /* Products */;
+			productRefGroup = B06C94162D6D96C400CFFE54;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -125,7 +110,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B589E42D7597A800AD8766 /* VStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
